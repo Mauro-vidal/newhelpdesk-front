@@ -23,9 +23,6 @@ export class TecnicoListComponent implements OnInit {
       senha: '1234',
       perfis: ['0'],
       dataCriacao: '28/10/2023'
-
-    
-    
     }
   ]
   

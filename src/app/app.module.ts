@@ -32,6 +32,7 @@ import { NavComponent } from './componentes/nav/nav.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { TecnicoListComponent } from './componentes/tecnico/tecnico-list/tecnico-list.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 
 
@@ -42,7 +43,8 @@ import { TecnicoListComponent } from './componentes/tecnico/tecnico-list/tecnico
     NavComponent,
     HomeComponent,
     HeaderComponent,
-    TecnicoListComponent
+    TecnicoListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
