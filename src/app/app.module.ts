@@ -31,6 +31,7 @@ import { MatCardModule } from '@angular/material/card';
 import { NavComponent } from './componentes/nav/nav.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { TecnicoListComponent } from './componentes/tecnico/tecnico-list/tecnico-list.component';
 
 
 
@@ -40,7 +41,8 @@ import { HeaderComponent } from './componentes/header/header.component';
     AppComponent,
     NavComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    TecnicoListComponent
   ],
   imports: [
     BrowserModule,
