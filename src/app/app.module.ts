@@ -35,6 +35,7 @@ import { TecnicoListComponent } from './componentes/tecnico/tecnico-list/tecnico
 import { LoginComponent } from './componentes/login/login.component';
 import { ToastrModule } from 'ngx-toastr';
 import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
+import { TecnicoCreateComponent } from './componentes/tecnico-create/tecnico-create.component';
 
 
 
@@ -47,7 +48,8 @@ import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
     HomeComponent,
     HeaderComponent,
     TecnicoListComponent,
-    LoginComponent
+    LoginComponent,
+    TecnicoCreateComponent
   ],
   imports: [
     BrowserModule,
