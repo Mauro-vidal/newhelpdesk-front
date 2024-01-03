@@ -7,15 +7,15 @@ import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-login',
-  templateUrl: './login.component.html',  // Certifique-se de ter o arquivo HTML correspondente
-  styleUrls: ['./login.component.css']  // Certifique-se de ter o arquivo CSS correspondente
+  templateUrl: './login.component.html',  
+  styleUrls: ['./login.component.css']  
 })
-export class LoginComponent implements OnInit {  // Certifique-se de adicionar 'implements OnInit'
+export class LoginComponent implements OnInit {  
 
-  email = new FormControl(null, Validators.required);  // Adicione a declaração da variável 'email'
+  email = new FormControl(null, Validators.required);  
   senha = new FormControl(null, Validators.minLength(3));
 
-  creds: Credenciais = { email: '', senha: '' };  // Certifique-se de declarar 'creds'
+  creds: Credenciais = { email: '', senha: '' };  
 
   constructor(private toast: ToastrService,
     private service: AuthService,
