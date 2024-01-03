@@ -34,6 +34,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { TecnicoListComponent } from './componentes/tecnico/tecnico-list/tecnico-list.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { ToastrModule } from 'ngx-toastr';
+import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
 
 
 
@@ -80,7 +81,7 @@ import { ToastrModule } from 'ngx-toastr';
 
     
   ],
-  providers: [],
+  providers: [AuthInterceptorProvider],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
