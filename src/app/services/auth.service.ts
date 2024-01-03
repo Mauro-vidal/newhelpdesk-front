@@ -9,7 +9,7 @@ import { API_CONFIG } from '../config/api.config';
 })
 export class AuthService {
   jwtService: JwtHelperService = new JwtHelperService();
-  
+
   constructor(private http: HttpClient) { }
 
   authenticate(creds: Credenciais){
@@ -31,5 +31,9 @@ export class AuthService {
     return false;
   }
 
-  
+  logout(){
+    localStorage.clear();
+  }
+
+
 }
