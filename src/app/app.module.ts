@@ -62,7 +62,11 @@ import { ClienteDeleteComponent } from './componentes/cliente/cliente-delete/cli
     ClienteCreateComponent,
     ClienteUpdateComponent,
     ClienteListComponent,
-    ClienteDeleteComponent
+    ClienteDeleteComponent,
+    ClienteCreateComponent,
+    ClienteDeleteComponent,
+    ClienteListComponent,
+    ClienteUpdateComponent
   ],
   imports: [
     BrowserModule,
